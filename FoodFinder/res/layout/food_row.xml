@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/restaurantRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/newFoodTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/newFoodCityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true"
+        />
+
+    <TextView
+        android:id="@+id/newFoodStateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true"
+        />
+
+    <Button
+        android:id="@+id/restaurantButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/row_restaurant_button"
+         />
+
+    <Button
+        android:id="@+id/restaurantWebButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/row_web_button" />
+
+</TableRow>
